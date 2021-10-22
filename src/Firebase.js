@@ -9,7 +9,7 @@ import "firebase/compat/database";
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyDMKaJ1T-20mMwAHR7c5w9keVegByAZgyA",
+  apiKey: process.env.FIREBASE_API,
   authDomain: "spark-bank-a9c51.firebaseapp.com",
   projectId: "spark-bank-a9c51",
   storageBucket: "spark-bank-a9c51.appspot.com",
