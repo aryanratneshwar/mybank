@@ -19,7 +19,7 @@ const UserDetails = (props) => {
                 setUserObjects({})
 
         })
-    }, [])
+    }, [props.match.params.name])
     var [userObjects1, setUserObjects1] = useState({})
     useEffect(() => {
         firebaseDb.child('Transactions').orderByChild('to').equalTo(props.match.params.name).on('value', snapshot => {
@@ -33,7 +33,7 @@ const UserDetails = (props) => {
                 setUserObjects1({})
 
         })
-    }, [])
+    }, [props.match.params.name])
     firebaseDb.child('User').child(props.match.params.name).child('Name').once("value").then(data => {
         if(data.val() !== null){
             setUsername(data.val());
