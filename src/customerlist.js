@@ -1,7 +1,7 @@
 import React from "react";
 import { useState, useEffect } from "react";
 import firebaseDb from "./Firebase";
-import { useHistory } from "react-router";
+// import { useHistory } from "react-router";
 function Customerlist () {
     // var history = useHistory();
 
