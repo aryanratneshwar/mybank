@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/mybank/static/css/main.6514b482.chunk.css",
-    "main.js": "/mybank/static/js/main.483d0d30.chunk.js",
-    "main.js.map": "/mybank/static/js/main.483d0d30.chunk.js.map",
-    "runtime-main.js": "/mybank/static/js/runtime-main.f29a05ee.js",
-    "runtime-main.js.map": "/mybank/static/js/runtime-main.f29a05ee.js.map",
-    "static/js/2.a4a45404.chunk.js": "/mybank/static/js/2.a4a45404.chunk.js",
-    "static/js/2.a4a45404.chunk.js.map": "/mybank/static/js/2.a4a45404.chunk.js.map",
-    "index.html": "/mybank/index.html",
-    "static/css/main.6514b482.chunk.css.map": "/mybank/static/css/main.6514b482.chunk.css.map",
-    "static/js/2.a4a45404.chunk.js.LICENSE.txt": "/mybank/static/js/2.a4a45404.chunk.js.LICENSE.txt",
-    "static/media/2176472.95d69fc5.png": "/mybank/static/media/2176472.95d69fc5.png",
-    "static/media/banktransfer.be53c397.jpg": "/mybank/static/media/banktransfer.be53c397.jpg",
-    "static/media/customer.5cbc8f32.png": "/mybank/static/media/customer.5cbc8f32.png",
-    "static/media/tran.5f94a059.png": "/mybank/static/media/tran.5f94a059.png"
+    "main.css": "/static/css/main.a1949251.chunk.css",
+    "main.js": "/static/js/main.fc3cbcea.chunk.js",
+    "main.js.map": "/static/js/main.fc3cbcea.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.d5d92e08.js",
+    "runtime-main.js.map": "/static/js/runtime-main.d5d92e08.js.map",
+    "static/js/2.6545f445.chunk.js": "/static/js/2.6545f445.chunk.js",
+    "static/js/2.6545f445.chunk.js.map": "/static/js/2.6545f445.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.a1949251.chunk.css.map": "/static/css/main.a1949251.chunk.css.map",
+    "static/js/2.6545f445.chunk.js.LICENSE.txt": "/static/js/2.6545f445.chunk.js.LICENSE.txt",
+    "static/media/2176472.95d69fc5.png": "/static/media/2176472.95d69fc5.png",
+    "static/media/banktransfer.be53c397.jpg": "/static/media/banktransfer.be53c397.jpg",
+    "static/media/customer.5cbc8f32.png": "/static/media/customer.5cbc8f32.png",
+    "static/media/tran.5f94a059.png": "/static/media/tran.5f94a059.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.f29a05ee.js",
-    "static/js/2.a4a45404.chunk.js",
-    "static/css/main.6514b482.chunk.css",
-    "static/js/main.483d0d30.chunk.js"
+    "static/js/runtime-main.d5d92e08.js",
+    "static/js/2.6545f445.chunk.js",
+    "static/css/main.a1949251.chunk.css",
+    "static/js/main.fc3cbcea.chunk.js"
   ]
 }
