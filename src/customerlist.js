@@ -1,15 +1,20 @@
 import React from "react";
 import { useState, useEffect } from "react";
 import firebaseDb from "./Firebase";
+import { useHistory } from "react-router";
 function Customerlist () {
+    // var history = useHistory();
 
     var [userObjects, setUserObjects] = useState({})
     useEffect(() => {
         firebaseDb.child('User').on('value', snapshot => {
-            if (snapshot.val() != null)
+            if (snapshot.val() != null){
+
+                
                 setUserObjects({
                     ...snapshot.val()
                 })
+            }
             else
                 setUserObjects({})
 
@@ -28,6 +33,7 @@ function Customerlist () {
                             <th scope="col">Email</th>
                             
                             <th scope="col">Balance(₹)</th>
+                            <th scope="col">Detials</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -40,6 +46,8 @@ function Customerlist () {
                                     <td>{userObjects[id].Email}</td>
                                     
                                     <td>{userObjects[id].Balance}₹</td>
+                                    <td className="tda"><a  href={"/customerlist/"+ userObjects[id].Name} >ViewDetails</a></td>
+
                                 </tr>
                             })
                         }

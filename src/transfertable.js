@@ -6,10 +6,12 @@ function Transfertable () {
     var [userObjects, setUserObjects] = useState({})
     useEffect(() => {
         firebaseDb.child('Transactions').on('value', snapshot => {
-            if (snapshot.val() != null)
+            if (snapshot.val() != null){
                 setUserObjects({
+                    
                     ...snapshot.val()
                 })
+            }
             else
                 setUserObjects({})
 

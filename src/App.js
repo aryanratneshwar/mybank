@@ -5,6 +5,7 @@ import Footer from './footer';
 import Transfertable from './transfertable';
 import Moneytransfer from './transferform';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import UserDetails from './UserDetails';
 function App() {
   return (
     <Router>
@@ -27,6 +28,7 @@ function App() {
             <Route exact path="/transferhistory">
              <Transfertable></Transfertable>
             </Route>
+            <Route exact path ="/customerlist/:name"  component={UserDetails}/>
             
           </Switch>
           <Footer></Footer>

@@ -182,6 +182,18 @@ th {
 td {
   background-color: rgb(205, 235, 253);
 }
+.tda a 
+{ background:#81a1e8;
+  text-decoration: none;
+  color: black;
+  padding: 0.3rem;
+  border-radius: 8px ;
+  
+  
+}
+.tda{
+  text-align: center;
+}
 
 
 
@@ -345,4 +357,16 @@ label {
   align-items: center;
   
 }
+}
+
+
+
+
+.userdetailsinfo{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-size: 3rem;
+  color:#fff ;
+
 }
