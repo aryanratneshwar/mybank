@@ -33,7 +33,7 @@ function Customerlist () {
                             <th scope="col">Email</th>
                             
                             <th scope="col">Balance(₹)</th>
-                            <th scope="col">Detials</th>
+                            <th scope="col">Details</th>
                         </tr>
                     </thead>
                     <tbody>
